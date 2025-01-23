@@ -1,0 +1,4 @@
+Date|Prompt|Response
+1/23/2025|If I had one thing I could do over today, what would it be?|test 1
+1/23/2025|What was the strongest emotion I felt today?|test 2
+1/23/2025|If I had one thing I could do over today, what would it be?|teswt 3
