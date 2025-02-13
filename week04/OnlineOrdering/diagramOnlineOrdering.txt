@@ -1,0 +1,65 @@
+Class: Address
+----------------------------
+Attributes:
+- _street: string
+- _city: string
+- _state: string
+- _country: string
+----------------------------
+Behaviors:
++ Address(street: string, city: string, state: string, country: string)
++ GetCountry(): string
++ AddressInUSA(): bool
++ DisplayAddress(): string
+
+
+Class: Customer
+----------------------------
+Attributes:
+- _name: string
+- _address: Address
+----------------------------
+Behaviors:
++ Customer(name: string, address: Address)
++ GetName(): string
++ GetAddress(): Address
++ CustomerInUSA(): bool
+
+
+Class: Product
+----------------------------
+Attributes:
+- _name: string
+- _productId: int
+- _price: float
+- _quantity: int
+----------------------------
+Behaviors:
++ Product(name: string, productId: int, price: float, quantity: int)
++ GetProductId(): int
++ GetProductName(): string
++ TotalProductCost(): float
+
+
+Class: Order
+----------------------------
+Attributes:
+- _products: List<Product>
+- _customer: Customer
+- _orderNumber: int
+- _usedOrderNumbers: HashSet<int> (static)
+- _random: Random (static)
+----------------------------
+Behaviors:
++ Order(products: List<Product>, customer: Customer)
++ TotalCost(): float
++ PackingLabel(): void
++ ShippingLabel(): void
++ TotalPrice(): void
++ ShippingCost(): float
+- GenerateOrderNumbers(): int
++ GetOrderNumber(): void
+- OrderNumber(): void
+
+
+

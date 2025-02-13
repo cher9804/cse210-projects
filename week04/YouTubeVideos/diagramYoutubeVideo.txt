@@ -1,0 +1,25 @@
+Class: Video
+----------------------------
+Attributes:
+- _title: string
+- _author: string
+- _lengthInSeconds: int
+- _comments: List<Comment>
+----------------------------
+Behaviors:
++ Video(title: string, author: string, lengthInSeconds: int)
++ AddComment(comment: Comment) : void
++ GetNumberOfComments(): int
++ DisplayInfo(): void
+
+
+Class: Comment
+----------------------------
+Attributes:
+- _commenterName: string
+- _text: string
+----------------------------
+Behaviors:
++ Comment(commenterName: string, text: string)
++ GetCommenterName(): string
++ GetText(): string

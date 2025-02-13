@@ -10,12 +10,14 @@ class Comment
         _commenterName = commenterName;
         _text = text;
     }
-    public string CommenterName()
+    public string GetCommenterName()
     {
         return _commenterName;
     }
-    public string Text(){
+    public string GetText(){
         return _text;
     }
 
 }
+
+
