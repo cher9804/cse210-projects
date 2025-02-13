@@ -40,7 +40,7 @@ class Activity
         ShowSpinner();
 
     }
-    public void ShowSpinner(int seconds = 1)
+    public void ShowSpinner(int seconds = 5)
     {
         DateTime startTime = DateTime.Now;
         DateTime endTime = startTime.AddSeconds(seconds);
