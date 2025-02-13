@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-class Comment
+public class Comment
 {
     private string _commenterName;
     private string _text;

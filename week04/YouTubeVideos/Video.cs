@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-class Video
+public class Video
 {
     private string _title;
     private string _author;

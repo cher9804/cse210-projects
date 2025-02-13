@@ -1,4 +1,4 @@
-class Product
+public class Product
 {
     private string _name;
     private int _productId;
