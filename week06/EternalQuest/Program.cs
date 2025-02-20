@@ -1,9 +1,14 @@
-using System;
+using InfiniteAdventure.Management;
 
-class Program
+namespace InfiniteAdventure
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        static void Main(string[] args)
+        {
+            // Entry point for the Infinite Adventure game.
+            QuestManager manager = new QuestManager();
+            manager.StartAdventure();
+        }
     }
 }
